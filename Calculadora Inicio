@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    inteiro fator1
+    inteiro fator2
+    escreva("digite dois numeros para se calcular e te entregarei operação com eles: \n")
+    escreva("digite o fator1: ")
+    leia(fator1)
+    escreva("digite o fator2")
+    leia(fator2)
+    escreva("adição =",
+    fator1+fator2,
+    "\n",
+    "subtração =",
+    fator1-fator2,
+    "\n",
+    "multiplicação =",
+    fator1*fator2,
+    "\n",
+    "divisão =",
+    fator1/fator2)
+  }
+}
