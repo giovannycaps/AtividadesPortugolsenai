@@ -1,0 +1,32 @@
+programa {
+  funcao inicio() {
+    // abaixos temos as Variaveis que estão a disposição
+    caracter opcao // variavel que guarda a opção de operador escolhida
+    real fator1 // variavel que guarda operação fator1
+    real fator2 // variavel que guarda operação fator2
+    real result // variavel que guar o resultado 
+    real formula // f (0 °C × 9/5) + 32 = 32 °F
+
+
+    escreva("conversão de temperatura \n")
+    escreva("\n escolha a operação: \n")
+    escreva("1 - fahrenheit \n")
+    escreva("2 - celsius \n")
+    escreva(" \nresposta:\t")
+    leia(opcao)
+
+    se (opcao == 1){
+     escreva("\n temperatura \n")
+     escreva("\n digite o primeiro fator: \n")
+     escreva("\nresposta: \t")
+     leia(fator1)
+     escreva("\ndigite o segundo fator: \n")
+     escreva("resposta: \t")
+     leia(fator2)
+     result = fator1-fator2
+     
+     
+     }
+
+  }
+}
